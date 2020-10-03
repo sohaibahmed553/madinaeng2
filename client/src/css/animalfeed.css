@@ -1,0 +1,33 @@
+.animal-feed-info {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.animal-feed-info h2,
+.animal-feed-info h3 {
+    color: #2f2b7f;
+    font-weight: bold;
+}
+
+.animal-feed-card {
+    padding: 5px;
+    padding: 25px;
+    box-shadow: none !important;
+    border: #dcdcdc solid !important;
+    border-width: thin !important;
+    border-radius: 0px !important;
+    transition: opacity 0.5s;
+}
+
+.animal-feed-card:hover {
+    border: green solid !important;
+    border-width: thin !important;
+    border-radius: 0px !important;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.animal-feed-card h4,
+.animal-feed-card h5 {
+    font-weight: bold;
+}

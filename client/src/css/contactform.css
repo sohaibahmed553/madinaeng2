@@ -1,0 +1,46 @@
+.contact-info {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10vh;
+    text-align: center;
+    /* The image used */
+    background-image: url("../images/Contact/contactus.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-info h2 {
+    color: white;
+    font-weight: normal;
+}
+
+.contact-info label {
+    font-size: smaller;
+    font-weight: normal;
+    color: white;
+}
+
+.contact-info button {
+    background-color: #2f2b7f !important;
+}
+
+.contact-info input,
+.contact-info textarea {
+    color: white;
+    background: transparent;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+
+.contact-info textarea {
+    font-size: 15px;
+}
+
+.contact-info input:focus,
+.contact-info textarea:focus {
+    background: transparent;
+    color: white;
+    box-shadow: none;
+}
